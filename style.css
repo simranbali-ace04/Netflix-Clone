@@ -91,3 +91,63 @@ button:hover{
 .input-box input:hover{
     border-color: white;
 }
+.separate-line{
+    height: 5px;
+    background-color: #575555;
+    width: 100%;
+
+}
+.tv-section{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.tv-content{
+    color: white;
+}
+.tv-content h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.tv-content p{
+    font-size: 17px;
+}
+
+.tv-display{
+    position: relative;
+}
+.tv-img{
+    position: relative;
+    z-index: 2;
+    width: 400px;
+}
+.tv-video{
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    bottom: 25%;
+    left:11%;
+}
+.download{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.download-content{
+    color: white;
+    max-width: 400px;
+
+}
+.mobile-img{
+    width: 450px;
+}
+.download-content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
