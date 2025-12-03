@@ -151,3 +151,21 @@ button:hover{
     font-size: 40px;
     margin-bottom: 10px;
 }
+.watch-everywhere-section{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.watch-everywhere-text{
+    color: white;
+}
+.watch-everywhere-text h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.watch-everywhere-text p{
+    font-size: 17px;
+}
