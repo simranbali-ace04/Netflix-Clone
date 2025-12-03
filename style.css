@@ -190,3 +190,99 @@ button:hover{
 .kids-content p{
     font-size: 17px;
 }
+.FAQ-section{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faq-heading{
+    color: white;
+    margin-bottom: 30px;
+    width: 500px;
+}
+.faq-questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.faq-item{
+    background-color: rgba(128, 128, 128, 0.356);
+    padding: 15px;
+    height:25px;
+    width: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+.faq-item:hover{
+    background-color: #8080807b;
+}
+.icon{
+    color: white;
+    font-size: 25px;
+}
+.faq-end{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction:column;
+   gap: 12px
+}
+.faq-end p{
+    margin-top: 30px;
+    font-size: smaller;
+}
+.faq-email{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    max-width: 500px;
+    padding: 5px;
+    border: solid white 1px;
+}
+.faq-email:hover{
+    border-color: white;
+}
+.footer-section{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.footer-top{
+    color: #f5f5f57f;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content-a, .footer-content-b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f5f5f57f;
+}
+.footer-end{
+    color: #f5f5f57f ;
+}
+.footer-section a{
+    color: #f5f5f57f;
+    text-decoration: none;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
