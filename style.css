@@ -169,3 +169,24 @@ button:hover{
 .watch-everywhere-text p{
     font-size: 17px;
 }
+.kids-section{
+    background-color: black;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.kids-img{
+    width: 450px;
+}
+.kids-content{
+    color: white;
+}
+.kids-content h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.kids-content p{
+    font-size: 17px;
+}
